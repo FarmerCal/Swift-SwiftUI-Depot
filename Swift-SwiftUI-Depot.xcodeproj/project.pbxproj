@@ -12,6 +12,9 @@
 		F2B3A622265F4D1D00801F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B3A621265F4D1D00801F70 /* Assets.xcassets */; };
 		F2B3A625265F4D1D00801F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B3A624265F4D1D00801F70 /* Preview Assets.xcassets */; };
 		F2B3A633265F4D7500801F70 /* SwiftUI_Notes.json in Resources */ = {isa = PBXBuildFile; fileRef = F2B3A632265F4D7500801F70 /* SwiftUI_Notes.json */; };
+		F2B3A637265F4DD100801F70 /* SwiftUI_Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B3A636265F4DD100801F70 /* SwiftUI_Notes.swift */; };
+		F2B3A63B265F4E2E00801F70 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B3A63A265F4E2E00801F70 /* NoteModel.swift */; };
+		F2B3A63E265F4E4D00801F70 /* JSON_Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B3A63D265F4E4D00801F70 /* JSON_Parsing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F2B3A624265F4D1D00801F70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2B3A626265F4D1D00801F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B3A632265F4D7500801F70 /* SwiftUI_Notes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SwiftUI_Notes.json; sourceTree = "<group>"; };
+		F2B3A636265F4DD100801F70 /* SwiftUI_Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Notes.swift; sourceTree = "<group>"; };
+		F2B3A63A265F4E2E00801F70 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		F2B3A63D265F4E4D00801F70 /* JSON_Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_Parsing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +60,12 @@
 		F2B3A61C265F4D1700801F70 /* Swift-SwiftUI-Depot */ = {
 			isa = PBXGroup;
 			children = (
+				F2B3A61D265F4D1700801F70 /* Swift_SwiftUI_DepotApp.swift */,
 				F2B3A631265F4D5400801F70 /* Models */,
 				F2B3A630265F4D4E00801F70 /* Views */,
 				F2B3A62F265F4D4500801F70 /* ViewModels */,
 				F2B3A62E265F4D4000801F70 /* Services */,
 				F2B3A62D265F4D2300801F70 /* Data */,
-				F2B3A61D265F4D1700801F70 /* Swift_SwiftUI_DepotApp.swift */,
-				F2B3A61F265F4D1700801F70 /* ContentView.swift */,
 				F2B3A621265F4D1D00801F70 /* Assets.xcassets */,
 				F2B3A626265F4D1D00801F70 /* Info.plist */,
 				F2B3A623265F4D1D00801F70 /* Preview Content */,
@@ -87,6 +92,7 @@
 		F2B3A62E265F4D4000801F70 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F2B3A63D265F4E4D00801F70 /* JSON_Parsing.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 		F2B3A62F265F4D4500801F70 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F2B3A63A265F4E2E00801F70 /* NoteModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -101,6 +108,7 @@
 		F2B3A630265F4D4E00801F70 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F2B3A61F265F4D1700801F70 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 		F2B3A631265F4D5400801F70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F2B3A636265F4DD100801F70 /* SwiftUI_Notes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,7 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B3A620265F4D1700801F70 /* ContentView.swift in Sources */,
+				F2B3A63B265F4E2E00801F70 /* NoteModel.swift in Sources */,
+				F2B3A63E265F4E4D00801F70 /* JSON_Parsing.swift in Sources */,
 				F2B3A61E265F4D1700801F70 /* Swift_SwiftUI_DepotApp.swift in Sources */,
+				F2B3A637265F4DD100801F70 /* SwiftUI_Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
